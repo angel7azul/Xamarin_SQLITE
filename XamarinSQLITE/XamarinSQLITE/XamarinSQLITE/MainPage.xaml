@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinSQLITE"
+             x:Class="XamarinSQLITE.MainPage">
+
+    <StackLayout VerticalOptions="Center" Margin="20">
+
+        <Entry Placeholder="Nombre" x:Name="usuarioEntry" />
+        <Entry Placeholder="Password" x:Name="passwordEntry" IsPassword="True"/>
+
+        <Button Text="Iniciar Sesión" x:Name="btnSesion" Clicked="btnSesion_Clicked"/>
+        <Label x:Name="lblResult" Text="Result: " HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
